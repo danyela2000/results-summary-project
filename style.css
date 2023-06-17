@@ -1,0 +1,250 @@
+*,::after, ::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size:18px;
+}
+
+/* --------------- Layout ----------------------*/
+body,
+.main-container,
+.result-container,
+.summary-container,
+.score-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+body, 
+.result-container, 
+.score-container  {
+    justify-content:center ;
+    align-items: center;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+}
+
+.result-container {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 100%;
+    height: 40%;
+    border-bottom: 2px solid hsl(224, 30%, 27%);
+    border-radius:0 0 30px 30px;
+    padding: 20px;
+}
+
+.score-container {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    margin-bottom: 10px;
+}
+
+.summary-container {
+    padding: 4px 30px;
+    justify-content:center ;
+    width: 100%;
+    height: 60%;
+}
+
+.summary-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:10px 0 20px;
+
+}
+
+.item {
+    display: flex;
+    margin: 10px 0;
+    font-weight: 700;
+    border-radius: 7px;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.score-items {
+    margin-left:auto;
+    font-weight: 700;
+}
+
+.score-items span {
+    color: hsl(240, 30%, 75%);
+}
+
+
+/* Typography */
+
+ /* Result section */
+
+.result-title, 
+.result-message {
+    color: hsl(241, 100%, 89%);
+}
+
+.current-result,
+.congratulation-message {
+    color: hsl(0, 0%, 100%);
+}
+
+.result-title {
+    margin: 10px 0 19px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.current-result {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.target-result {
+    margin: 0;
+    font-size: 16px;
+    color: hsl(240, 21%, 73%);
+    
+}
+
+.congratulation-message {
+    margin: 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.result-message {
+    width: 90%;
+    font-size:16px;
+    margin:0 auto 10px;
+}
+
+ /* Summary section */
+
+.summary-title {
+    margin: 18px auto 0 0;
+    font-weight: 700;
+}
+
+/* text-colors */
+.reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    color:hsl(166, 100%, 37%);
+}
+
+.visual {
+   color: hsl(234, 85%, 45%);
+}
+
+
+/* bg-colors */
+
+.reaction-bg {
+    background-color: hsla(0, 100%, 67%, 0.07);
+}
+
+.memory-bg {
+    background-color: hsla(39, 100%, 56%, 0.07);
+}
+
+.verbal-bg {
+    background-color:hsla(166, 100%, 37%, 0.07);
+}
+
+.visual-bg {
+   background-color: hsla(234, 85%, 45%, 0.07);
+}
+
+
+.icon{
+    margin-right: 10px;
+}
+
+
+button {
+    display: block;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color:white;
+    background-color:hsl(224, 30%, 27%); 
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+/* Media queries */
+
+@media(min-width:890px) {
+    body{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .main-container {
+        flex-direction: row;
+        width:60%;
+        height:70%;
+        max-width: 726px;
+        max-height: 510px;
+        border-radius:30px;
+        box-shadow: 6px 6px 8px 5px hsl(240, 100%, 97%); 
+    }
+
+    .result-container {
+        border-radius:30px;
+        border: none;
+        padding: 0px 10px;
+        width: 100%;
+        height: 100%;
+        gap:20px;
+    }
+
+    .summary-container {
+        border-radius:30px;
+        width: 100%;
+        height: 100%;
+        margin-left:20px;
+        padding: 20px;
+        
+    }
+
+    .summary-title {
+        margin: 18px auto 0 0;
+        font-weight: 700;
+        font-size:25px;
+    }
+
+    .item {
+        height: 50px;
+    }
+
+    button {
+        font-size: 16px;
+        height: 50px;
+        padding: 10px;
+    }
+}
