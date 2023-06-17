@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/danyela2000/results-summary-project/blob/main)
-- Live Site URL: [Live site URL here](https://gentle-truffle-5bbd71.netlify.app)
+- Solution URL: [https://github.com/danyela2000/results-summary-project/blob/main](https://github.com/danyela2000/results-summary-project/blob/main)
+- Live Site URL: [https://gentle-truffle-5bbd71.netlify.app](https://gentle-truffle-5bbd71.netlify.app)
 
 ## My process
 
@@ -46,6 +46,6 @@ Users should be able to:
 - finish the project faster
 
 ## Author
-- Frontend Mentor - [@danyela2000](https://www.frontendmentor.io/profile/@danyela2000)
+- Frontend Mentor - [https://www.frontendmentor.io/profile/danyela2000](https://www.frontendmentor.io/profile/danyela2000)
 
 
