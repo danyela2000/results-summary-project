@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshots/desktop-screenshot.jpg)
-![](screenshots/mobile-screenshot.jpg)
+![Desktop version screenshot](./screenshots/desktop-screenshot.JPG)
+![Mobile version screenshot](./screenshots/mobile-screenshot.JPG)
 
 ### Links
 
@@ -46,6 +46,6 @@ Users should be able to:
 - finish the project faster
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@danyela2000](https://www.frontendmentor.io/profile/@danyela2000)
 
 
