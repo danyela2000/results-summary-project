@@ -3,6 +3,7 @@
     "category": "Reaction",
     "score": 80,
     "icon": "./assets/images/icon-reaction.svg",
+    "alt": "red lightning icon",
     "itemClass": "reaction-bg",
     "textClass":"reaction"
   },
@@ -10,6 +11,7 @@
     "category": "Memory",
     "score": 92,
     "icon": "./assets/images/icon-memory.svg",
+    "alt": "yellow brain icon",
     "itemClass": "memory-bg",
     "textClass": "memory"
   },
@@ -17,6 +19,7 @@
     "category": "Verbal",
     "score": 61,
     "icon": "./assets/images/icon-verbal.svg",
+    "alt": "green chat icon",
     "itemClass": "verbal-bg",
     "textClass": "verbal"
   },
@@ -24,6 +27,7 @@
     "category": "Visual",
     "score": 72,
     "icon": "./assets/images/icon-visual.svg",
+    "alt": "blue eye icon",
     "itemClass": "visual-bg",
     "textClass": "visual"
   }
